@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+:root {
+    --main-color: #087c6b;
+    --main-color-light: #e4fffb;
+    /* --main-color-light: #d9fff5; */
+    --secondary-color: #ff6320;
+    --secondary-color-light: #ffece3;
+    --dark-color: #101313;
+    --dark-color-l1:#383a3a;
+    --status-color: #219fff;
+    --focus-main: #178d8d;
+    --max-width: 1290px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+h1 {
+    font-size: 56px;
+    line-height: 66px;
+}
+h3 {
+    font-size: 22px;
+}
+.heroWraper {
+    width: 100%;
+    background-color: var(--main-color-light);
+    position: relative;
+}
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    right: 0;   
+    object-fit: cover;
+    object-position: center;
+    width: 35vw;
+    height: 100%;
+}
+.containerSeccion {
+    padding: 30px;
+    margin: 1rem 0;
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+
+.splide__arrows {
+    display: none;
+  }

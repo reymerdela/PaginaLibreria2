@@ -1,0 +1,42 @@
+[
+    {
+      "title": "El principito",
+      "autor": "Antoine de Saint-Exupéry",
+      "img": "https://picsum.photos/200/300",
+      "price": 100,
+      "description": "El principito es una novela corta y la obra más famosa del escritor y aviador francés Antoine de Saint-Exupéry. La publicó por primera vez en 1943, en Estados Unidos, mientras vivía en Nueva York, aunque la obra se terminó de escribir en una ciudad estadounidense del estado de Maine llamada Ashland.",
+      "category": "Ficcion"
+    },
+    {
+        "title": "Don Quijote de la Mancha",
+        "autor": "Miguel de Cervantes",
+        "img": "https://picsum.photos/200/300",
+        "price": 100,
+        "description": "Don Quijote de la Mancha es una novela escrita por el español Miguel de Cervantes Saavedra. Publicada su primera parte con el título de El ingenioso hidalgo don Quijote de la Mancha a comienzos de 1605, es una de las obras más destacadas de la literatura española y la literatura universal, y una de las más traducidas.",
+        "category": "Ficcion"
+      },
+      {
+        "title": "Cien años de soledad",
+        "autor": "Gabriel García Márquez",
+        "img": "https://picsum.photos/200/300",
+        "price": 100,
+        "description": "Cien años de soledad es una novela del escritor colombiano Gabriel García Márquez, ganador del Premio Nobel de Literatura en 1982. Es considerada una obra maestra de la literatura hispanoamericana y universal, así como una de las obras más traducidas y leídas en español.",
+        "category": "Ficcion"
+      },
+      {
+        "title": "El Señor de los Anillos",
+        "autor": "J. R. R. Tolkien",
+        "img": "https://picsum.photos/200/300",
+        "price": 100,
+        "description": "El Señor de los Anillos es una novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien. Su historia se desarrolla en la Tercera Edad del Sol de la Tierra Media, un lugar ficticio poblado por hombres y otras razas antropomorfas como los hobbits",
+        "category": "Ficcion"
+    },
+    {
+        "title": "El Alquimista",
+        "autor": "Paulo Coelho",
+        "img": "https://picsum.photos/200/300",
+        "price": 100,
+        "description": "El alquimista es un libro escrito por el brasileño Paulo Coelho que ha sido traducido a más de 63 lenguas y publicado en 150 países, y que ha vendido 65 millones de copias en todo el mundo. En 2014, el libro encabezó la lista de best sellers de la revista alemana Der Spiegel durante varias semanas consecutivas.",
+        "category": "Ficcion"
+    }
+  ]

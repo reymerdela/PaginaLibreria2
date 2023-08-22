@@ -1,0 +1,42 @@
+.navContainer{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    background-color: white;
+}
+.navWraper {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    
+}
+ .navLinks {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navLinks a {
+    color: var(--dark-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navButtons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex: 30%;
+    justify-content: flex-end;
+    z-index: 2;
+} 
+.login {
+    color: white;
+    font-weight: 600;
+}
+.login:hover{ 
+    cursor: pointer;
+}

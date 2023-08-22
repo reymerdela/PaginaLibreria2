@@ -1,0 +1,20 @@
+.footer {
+    background-color: var(--dark-color);
+    padding: 3rem 2rem;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.footer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-right: 1px solid white;
+    flex: 1;
+}
+
+.link {
+    color: #fff;
+    font-size: 14px;
+}

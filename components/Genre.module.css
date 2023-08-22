@@ -1,0 +1,17 @@
+.container {
+    background: url('https://picsum.photos/200/300');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 120px;
+    border-radius: 20px;
+    position: relative;
+    margin: 2rem 0;
+}
+.container p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}

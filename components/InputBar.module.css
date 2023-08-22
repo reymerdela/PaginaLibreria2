@@ -1,0 +1,19 @@
+
+.container {
+    display: flex;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 6px 6px 6px 20px;
+    border-radius: 20px;
+}
+.input {
+    background-color: #fff;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.input::placeholder {
+    font-weight: 500;
+    font-style: italic;
+}
