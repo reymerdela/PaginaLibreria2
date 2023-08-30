@@ -1,16 +1,44 @@
+'use client'
+import Link from "next/link";
+import Image from "next/image";
+import { useState } from "react";
+import SvgComponent from "./IconBookCard";
 
-import style from './bookCard.module.css'
-const BookCard = ({book}) => {
-    const { title, autor, img, price, description, category } = book;
-    console.log(book);
-    return (
-        <article className={style.bookCard}>
-            <img className={style.imgContainer} src={img} alt='book'/>
-            <p className={style.autor}>{autor}</p>
-            <h3 className={style.titulo}>{title}</h3>
-            <p className={style.precio}>${price}</p>
-        </article>
-    )
-}
+
+
+
+
+
+const BookCard = ({ book }) => {
+
+  const [overButton, setOverButton] = useState(false)
+ 
+  const { titulo, autor, imagen, precio, description, generos } = book;
+  return (
+    <article className="p-2 d-flex flex-column justify-content-between ">
+     <div>
+      <Link href={`/libros/${book.id}`}>
+ 
+      <Image 
+      src={imagen}
+      alt="book"
+      width={200}
+      height={300}
+      className="img-card"
+      style={{  
+        height: "300px",
+        width: "auto",
+        borderRadius: "20px",
+      }} onMouseOver={() => setOverButton(true)} onMouseOut={() => setOverButton(false)}
+      />
+      </Link>
+      
+      <p className="my-2 fw-medium" style={{fontSize: '14px', color: 'var(--main-color)'}}>{autor}</p>
+      <h3 className='fs-6 mt-2 fw-bold'>{titulo}</h3>
+      </div>
+      <p className='fw-bold' style={{color: 'var(--main-color)'}}>${precio}</p> 
+    </article>
+  );
+};
 
 export default BookCard;

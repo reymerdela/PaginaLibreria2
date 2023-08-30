@@ -1,0 +1,28 @@
+
+.wraper{
+    background-color: var(--main-color-light)
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.content h2 {
+    font-size: 42px;
+    color: var(--dark-color);
+}
+.content p {
+    color: var(--dark-color);
+}
+.content span {
+    color: var(--main-color);
+}
+.content span a {
+    color: var(--main-color)
+}
+.content a {
+    color: var(--dark-color);
+}

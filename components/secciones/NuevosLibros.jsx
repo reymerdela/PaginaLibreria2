@@ -1,9 +1,11 @@
 import BookCard from "../BookCard";
 import style from "./NuevosLibros.module.css";
-import libros from "../../Data/Data.json";
 import Button from "../Button";
-const books = JSON.parse(JSON.stringify(libros));
-const NuevosLibros = () => {
+import { getLibros } from "@/services/datosService";
+// const books = JSON.parse(JSON.stringify(libros));
+
+const NuevosLibros = async () => {
+  const books = await getLibros();
   return (
     <section className={style.container}>
       <div className={style.content}>
@@ -14,13 +16,13 @@ const NuevosLibros = () => {
           te espera, ¡comienza hoy mismo!
         </p>
         <div className={style.button}>
-        <Button value="Ver mas" />
+        <Button value="Ver mas" href="/libros" />
         </div>
       </div>
       <div className={style.bookContainer}>
         <BookCard book={books[0]} />
-        <BookCard book={books[0]} />
-        <BookCard book={books[0]} />
+        <BookCard book={books[1]} />
+         
       </div>
     </section>
   );

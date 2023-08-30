@@ -1,0 +1,50 @@
+
+
+.container {
+    max-width: var(--max-width);
+    padding: 2rem;
+    display: grid;
+    margin: 2rem auto;
+    grid-template-columns: 1fr 3fr;
+}
+.filterCard {
+    border: 1px solid rgba(95, 94, 94, 0.329);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+.filtersContent {
+    padding: 2rem;
+}
+.input {
+    padding-right: 1rem;
+}
+.subtitle {
+   
+    padding: 2rem;
+    border-bottom: 1px solid rgba(95, 94, 94, 0.329);
+    color: var(--dark-color);
+}
+
+.booksContainer {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    justify-items: center;
+    padding: 2rem;
+}
+.booksContainer > * {
+    border-right: 1px solid rgba(95, 94, 94, 0.329);
+}
+
+.orderContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 2rem;
+}
+.orderMenu {
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    color: var(--dark-color);
+}

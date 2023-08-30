@@ -5,6 +5,7 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <footer className={style.footer}>
+            <div className={style.footerWraper}>
             <div>
                 <Image src={logo} width={150} alt='logo'/>
                 <p>Direccion Aqui</p>
@@ -17,11 +18,7 @@ const Footer = () => {
                 <Link href={'/blog'} className={style.link}>Blog</Link>
                 <Link href={'/sobre-nosotros'} className={style.link}>Sobre Nosotros</Link>
             </div>
-            <div>
-                
-            </div>
-            <div>
-                
+                <p>...</p>
             </div>
         </footer>
     )

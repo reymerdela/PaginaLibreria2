@@ -1,24 +1,24 @@
-import style from './BookSeccion.module.css'
-import Button from '../Button';
-import BookCard from '../BookCard';
-import libros from '../../Data/Data.json'
-import SeccionTitle from '../SeccionTitle';
-const Books = JSON.parse(JSON.stringify(libros));
-console.log(Books);
-const BookSeccion = () => {
-  
-    return (
-        <section className='containerSeccion'>
-            <SeccionTitle title='Libros Populares'/>
-            <div className={style.bookContainer}>
-                
-               {Books.map((book) => (
-                <div>
-                <BookCard key={book.title} book={book} />
-                </div>
-               ))}
-            </div>
-        </section>
-    )
- }
- export default BookSeccion;
+import style from "./BookSeccion.module.css";
+import BookCard from "../BookCard";
+
+import SeccionTitle from "../SeccionTitle";
+import { getLibros } from "@/services/datosService";
+import { Suspense } from "react";
+import Loading from "@/app/loading";
+import { Splide, SplideSlide } from "@/util/slider";
+const BookSeccion = async () => {
+  const Books = await getLibros();
+
+  return (
+    <section>
+      <SeccionTitle title="Libros Populares" href={"/libros"} />
+     
+        <div className={style.bookContainer}>
+          {Books.slice(0, 5).map((book) => (
+            <BookCard key={book.titulo} book={book} />
+          ))}
+        </div>
+    </section>
+  );
+};
+export default BookSeccion;

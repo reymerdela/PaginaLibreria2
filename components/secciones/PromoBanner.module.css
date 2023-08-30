@@ -1,5 +1,4 @@
 .banner {
-    margin: 0 30px;
     border-radius: 20px;
     background-image: linear-gradient(112deg, rgba(255, 255, 255, 0) 0%, var(--main-color) 60%), url("https://picsum.photos/seed/picsum/900/250");
     background-repeat: no-repeat;

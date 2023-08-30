@@ -1,0 +1,30 @@
+.container {
+    max-width: var(--max-width);
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem; 
+    gap: 2rem;
+}
+
+.container > div {
+    flex: 1;
+    border: 1px solid rgba(95, 94, 94, 0.329);
+    border-radius: 20px;
+}
+.imgContainer {
+    padding: 2rem;
+    max-height: 800px;
+}
+.imgContainer > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.detalleContainer {
+    padding: 2rem;
+}
+.detalleContainer > h2 {
+    font-size: 30px;
+}

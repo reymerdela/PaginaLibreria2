@@ -1,0 +1,11 @@
+.booksContainer {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    justify-items: center;
+    padding: 2rem;
+}
+.booksContainer > * {
+    border-right: 1px solid rgba(95, 94, 94, 0.329);
+}

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import style from './button.module.css'
 
 
@@ -14,17 +15,14 @@ const estiloPrimario = {
     backgroundColor: 'var(--main-color)',
     color: 'white',
 }
- const Button = ({value,style = estiloPrimario }) => {
+ const Button = ({value, size ="", href = "" ,variant= 'button'}) => {
 
-    const estilo = {
-        ...estiloPrimario,
-        ...style,
-    }
+   
 
     return (
-        <button style={estilo} className={style.button}>
+        <Link href={href} className={style[variant]} >
             {value}
-        </button>
+        </Link>
     )
 }
 

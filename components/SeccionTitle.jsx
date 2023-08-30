@@ -1,10 +1,12 @@
-import style from './SeccionTitle.module.css'
+
+
 import Button from './Button';
-const SeccionTitle = ({ title }) => {
+
+const SeccionTitle = ({ title, href }) => {
     return (
-        <div className={style.titleContainer}>
+        <div className='d-flex justify-content-between align-items-center'>
             <h2>{title}</h2>
-            <Button value='Ver mas' />
+            <Button value='Ver mas'  href={href}/>
         </div>
     )
 }

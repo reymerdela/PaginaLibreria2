@@ -1,26 +1,31 @@
-
-import NavBar from "@/components/NavBar";
-import Image from 'next/image'
-import Hero from "@/components/Hero.jsx";
-import { sora } from "../public/fonts/font.js";
-import heroImage from '../public/images/stock-photo-selective-focus-stack-books-wooden.jpg'
-import "../styles/globals.css";
-import Footer from "@/components/Footer.jsx";
+import NavigationBar from "@/components/NavigationBar";
+import Footer from "@/components/Footer";
+import { sora } from "@/public/fonts/font";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.min.css";
+import "@/styles/globals.css";
+import CartProvider from "@/context/CartContext";
 export const metadata = {
   title: "Libreria",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={sora.className}>
-      <body>
-        <div className="heroWraper">
-          <NavBar />
-          <Hero/>
-          <Image src={heroImage} className="imageOverlay" alt='overlay' />
-        </div>
-        {children}
+    <html lang="es">
+      <body className={sora.className}>
+      <div>
+
+      
+        <CartProvider>
+          <header>
+            <NavigationBar />
+          </header>
+          <main >{children}</main>
+        </CartProvider>
+          
+        </div>  
         <Footer />
+    
       </body>
     </html>
   );

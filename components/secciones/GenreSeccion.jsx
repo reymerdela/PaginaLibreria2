@@ -1,33 +1,32 @@
+import { getGenero } from "@/services/datosService";
 import { Splide, SplideSlide, AutoScroll} from "../../util/slider";
 import Genre from "../Genre";
 import SeccionTitle from "../SeccionTitle";
-import style from "./GenreSeccion.module.css";
 import '@splidejs/react-splide/css/core';
-import genero from '../../Data/Genero.json'
 
 
-const {generos} = JSON.parse(JSON.stringify(genero));
-console.log(generos)
-const GenreSeccion = () => {
-  
+const GenreSeccion = async () => {
+  const generos = await getGenero();
+
   return (
-    <section className={style.genreContainer}>
-      <SeccionTitle title="Generos" />
+    <section className="my-3">
+      <SeccionTitle title="Generos" href={"/libros"} />
       <Splide
         options={{
           type: "loop",
           drag: 'free',
           perPage: 3,
           gap: "2rem",
+          pagination: false,
           autoScroll: {
             speed: 1,
           },
         }}
         extensions={{AutoScroll}}
       >
-      {generos.map(genre => (
-        <SplideSlide>
-          <Genre genero={genre}/>
+      {generos.map(genero => (
+        <SplideSlide key={genero.id}>
+          <Genre genero={genero}/>
         </SplideSlide>
       ))}
       </Splide>

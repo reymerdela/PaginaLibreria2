@@ -1,22 +1,22 @@
 .searchContainer {
     padding: 6px 10px 6px 24px;
     background-color: white;
-    width: 80%;
     display: flex;
     justify-content: space-between;
-    border-radius: 26px;
-    gap: 3rem;
+    gap: 2rem;
+    border-radius: 26px; 
+     /* width: 100%; */
 }
 .searchContainer input {
     border: none;
-    font-size: 20px;
+    font-size: 1rem;
     outline: none;
-    flex: 1;
     padding: 10px 0;
+    flex: 3;
+    min-width: 100px;
 }
-/* .searchButton {
-    background-color: var(--main-color);
-    color: #fff;
-    border-radius: 26px;
-    padding: 18px 32px;
-} */
+
+.searchContainer btn {
+    display: block;
+    flex-grow: 5;
+}

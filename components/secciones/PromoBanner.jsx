@@ -1,12 +1,10 @@
 import Button from "../Button";
 import style from "./PromoBanner.module.css";
 const PromoBanner = () => {
-  const estilo = {
-    backgroundColor: "#fff",
-    color: "var(--main-color)",
-  };
+
 
   return (
+    <section className="">
     <div className={style.banner}>
       <div className={style.content}>
         <div>
@@ -15,9 +13,10 @@ const PromoBanner = () => {
           <p>Por los primeros 6 meses</p>
         </div>
 
-        <Button value="Compra Ahora!" style={estilo} />
+        <Button value="Compra Ahora!" variant="button_white" />
       </div>
     </div>
+      </section>
   );
 };
 
