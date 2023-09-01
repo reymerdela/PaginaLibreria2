@@ -2,7 +2,11 @@
 const Testimonials = () => { 
 
     return (
-        <p>Testimonials</p>
+        <section className="container-xl">
+            <div>
+                
+            </div>
+        </section>
     )
 }
 

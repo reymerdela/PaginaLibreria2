@@ -1,0 +1,170 @@
+[
+  {
+    "id": "1",
+    "nombre": "Antoine de Saint-Exupéry",
+    "biografia": "Fue un escritor y aviador francés, autor de la famosa obra El principito, de 1943. Fue también un pionero de la aviación, y escribió libros sobre sus experiencias como piloto de correo aéreo en las primeras décadas del siglo XX.",
+    "slug": "antoine-de-saint-exupery",
+    "imagen": "/antoine-de-saint-exupery.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "Paulo Coelho",
+    "biografia": "Es un novelista, dramaturgo y letrista brasileño. Es uno de los escritores más leídos del mundo con más de 225 millones de libros vendidos en más de 170 países (224 territorios), traducidos a 80 lenguas.",
+    "slug": "paulo-coelho",
+    "imagen": "/paulo-coelho.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "Gabriel García Márquez",
+    "biografia": "Fue un escritor, novelista, cuentista, guionista, editor y periodista colombiano. En 1982 recibió el Premio Nobel de Literatura. Es conocido familiarmente y por sus amigos como Gabo.",
+    "slug": "gabriel-garcia-marquez",
+    "imagen": "/gabriel-garcia-marquez.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "Jorge Luis Borges",
+    "biografia": "Fue un escritor argentino, uno de los autores más destacados de la literatura del siglo XX. Publicó ensayos breves, cuentos y poemas. Su obra, fundamental en la literatura y el pensamiento universal, y objeto de minuciosos análisis y múltiples interpretaciones, trasciende cualquier clasificación y excluye todo tipo de dogmatismo.",
+    "slug": "jorge-luis-borges",
+    "imagen": "/jorge-luis-borges.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Dan Brown",
+    "biografia": "Es un escritor estadounidense conocido por la novela El código Da Vinci y otros títulos protagonizados por el personaje Robert Langdon. Sus libros han vendido más de 200 millones de copias en todo el mundo, y algunos de ellos han sido adaptados al cine.",
+    "slug": "dan-brown",
+    "imagen": "/dan-brown.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "J. K. Rowling",
+    "biografia": "Es una escritora, productora de cine y guionista británica, conocida por ser la autora de la serie de libros Harry Potter, que han superado los quinientos millones de ejemplares vendidos.",
+    "slug": "j-k-rowling",
+    "imagen": "/j-k-rowling.jpg"
+  }, 
+  {
+    "id": 7,
+    "nombre": "Stephen King",
+    "biografia": "Es un escritor estadounidense conocido por sus novelas de terror. Los libros de King han estado muy a menudo en las listas de superventas. En 2003 recibió el National Book Award por su trayectoria y contribución a las letras estadounidenses, el cual fue otorgado por la National Book Foundation.",
+    "slug": "stephen-king",
+    "imagen": "/stephen-king.jpg"
+  },
+  {
+    "id": 8,
+    "nombre":"J. R. R. Tolkien",
+    "biografia": "Fue un escritor, poeta, filólogo, lingüista y profesor universitario británico, conocido principalmente por ser el autor de las novelas clásicas de fantasía heroica El hobbit y El Señor de los Anillos.",
+    "slug": "j-r-r-tolkien",
+    "imagen": "/j-r-r-tolkien.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "George Orwell",
+    "biografia": "Fue un escritor y periodista británico, cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida: su posición en contra del imperialismo británico que lo llevó a alistarse como voluntario durante la Guerra Civil Española, en contra del totalitarismo estalinista posteriormente, y su participación como soldado de un partido trotskista durante la Segunda Guerra Mundial.",
+    "slug": "george-orwell",
+    "imagen": "/george-orwell.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Patrick Süskind",
+    "biografia": "Es un escritor y guionista alemán. Es conocido por su obra El perfume, que fue adaptada al cine en 2006.",
+    "slug": "patrick-suskind",
+    "imagen": "/patrick-suskind.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Oscar Wilde",
+    "biografia": "Fue un escritor, poeta y dramaturgo irlandés. Wilde es considerado uno de los dramaturgos más destacados del Londres victoriano tardío; además, fue una celebridad de la época debido a su gran y aguzado ingenio. Hoy en día, es recordado por sus epigramas, sus obras de teatro y la tragedia de su encarcelamiento, seguida de su temprana muerte.",
+    "slug": "oscar-wilde",
+    "imagen": "/oscar-wilde.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Patrick Rothfuss",
+    "biografia": "Es un escritor estadounidense de fantasía y profesor adjunto de lengua y literatura inglesa en la Universidad de Wisconsin-Stevens Point. Es conocido por su trilogía Crónica del asesino de reyes.",
+    "slug": "patrick-rothfuss",
+    "imagen": "/patrick-rothfuss.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Margaret Atwood",
+    "biografia": "Es una escritora canadiense de novelas, cuentos y ensayos, además de ser una activista política. Su obra más conocida es El cuento de la criada, novela distópica que fue adaptada a la televisión en 2017.",
+    "slug": "margaret-atwood",
+    "imagen": "/margaret-atwood.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Isaac Asimov",
+    "biografia": "Fue un escritor y bioquímico estadounidense nacido en Rusia, autor de obras de ciencia ficción como la serie de la Fundación o Yo, robot, y de ciencia divulgativa, como Guía del lenguaje científico, Guía de la Biblia o Breve historia de la química.",
+    "slug": "isaac-asimov",
+    "imagen": "/isaac-asimov.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Viktor Frankl",
+    "biografia": "Fue un neurólogo y psiquiatra austriaco, fundador de la Logoterapia, que explícitamente se basa en la búsqueda de un sentido de la vida como el principal motivador de la existencia humana.",
+    "slug": "viktor-frankl",
+    "imagen": "/viktor-frankl.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Sun Tzu",
+    "biografia": "Fue un general, estratega militar y filósofo de la antigua China. Se le atribuye el libro El arte de la guerra, un tratado militar escrito durante el período de los Reinos Combatientes.",
+    "slug": "sun-tzu",
+    "imagen": "/sun-tzu.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Michael Ende",
+    "biografia": "Fue un escritor alemán de literatura fantástica y de cuentos de hadas. Es conocido por su obra La historia interminable.",
+    "slug": "michael-ende",
+    "imagen": "/michael-ende.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "William Golding",
+    "biografia": "Fue un novelista y poeta británico, galardonado con el Premio Nobel de Literatura en 1983, conocido especialmente por su novela El señor de las moscas.",
+    "slug": "william-golding",
+    "imagen": "/william-golding.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "James Clear",
+    "biografia": "Es un autor, emprendedor y fotógrafo estadounidense. Es conocido por su libro Atomic Habits, que ha vendido más de 1 millón de copias.",
+    "slug": "james-clear",
+    "imagen": "/james-clear.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Eckhart Tolle",
+    "biografia": "Es un escritor alemán residente en Canadá. Es reconocido por su obra El poder del ahora, que ha vendido más de 8 millones de copias y ha sido traducido a más de 30 idiomas.",
+    "slug": "eckhart-tolle",
+    "imagen": "/eckhart-tolle.jpg"
+  },
+  {
+    "id": 21,
+    "nombre": "Robin Sharma",
+    "biografia": "Es un escritor canadiense, autor de libros de autoayuda y superación personal. Es conocido por su libro El monje que vendió su Ferrari.",
+    "slug": "robin-sharma",
+    "imagen": "/robin-sharma.jpg"
+  },
+  {
+    "id": 22,
+    "nombre": "Robert Fisher",
+    "biografia": "Es un escritor británico, autor de libros de autoayuda y superación personal. Es conocido por su libro El caballero de la armadura oxidada.",
+    "slug": "robert-fisher",
+    "imagen": "/robert-fisher.jpg"
+  },
+  {
+    "id": 23,
+    "nombre": "Jane Austen",
+    "biografia": "Fue una destacada novelista británica que vivió durante el período de la Regencia. La ironía que emplea para dotar de comicidad a sus novelas hace que Jane Austen sea considerada entre los «clásicos» de la novela inglesa, a la vez que su recepción va, incluso en la actualidad, más allá del interés académico, siendo sus obras leídas por un público más amplio.",
+    "slug": "jane-austen",
+    "imagen": "/jane-austen.jpg"
+  },
+  {
+    "id": 24,
+    "nombre": "Anthony Burgess",
+    "biografia": "Fue un escritor, compositor, lingüista y crítico musical británico. Es conocido por su novela La naranja mecánica, que fue adaptada al cine en 1971 por Stanley Kubrick.",
+    "slug": "anthony-burgess",
+    "imagen": "/anthony-burgess.jpg"
+  }
+]

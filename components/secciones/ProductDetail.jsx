@@ -68,7 +68,7 @@ export const ProductDetail = ({libro}) => {
             </div>
               <hr />
               <p>Categorias: {libro.generos.map(genero => (
-                <span className="fw-bold" key={libro.genero}>{genero}, </span>
+                <span key={genero} className="fw-bold">{genero}, </span>
               ))}</p>
           </div>
         </div>

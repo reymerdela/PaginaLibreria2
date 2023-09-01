@@ -1,14 +1,35 @@
-
-
-
+import style from "./loading.module.css";
 const Loading = () => {
   return (
-    // Loading spinner 
-    <div className="d-flex justify-content-center py-5">
-      <div className="spinner-border my-5" role="status">
-        <span className="visually-hidden">Loading...</span>
+    <div className={style.container}>
+      <div className={style.book}>
+        <div className={style.inner}>
+          <div className={style.left}></div>
+          <div className={style.middle}></div>
+          <div className={style.right}></div>
+        </div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 export default Loading;

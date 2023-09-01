@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "nombre": "Novela"
+  },
+  {
+    "id": "2",
+    "nombre": "Cuento"
+  },
+  {
+    "id": "3",
+    "nombre": "Ficción"
+  },
+  {
+    "id": "4",
+    "nombre": "Ficción Politica"
+  },
+  {
+    "id": "5",
+    "nombre": "Realismo mágico"
+  },
+  {
+    "id": "6",
+    "nombre": "Ciencia ficción"
+  },
+  {
+    "id": "7",
+    "nombre": "Fantasía"
+  },
+  {
+    "id": "8",
+    "nombre": "Misterio"
+  },
+  {
+    "id": "9",
+    "nombre": "Suspenso"
+  },
+  {
+    "id": "10",
+    "nombre": "Autobiografía"
+  },
+  {
+    "id": "11",
+    "nombre": "Ensayo"
+  },
+  {
+    "id": "12",
+    "nombre": "Aventura"
+  },
+  {
+    "id": "13",
+    "nombre": "Autoayuda"
+  },
+  {
+    "id": "14",
+    "nombre": "Romance"
+  },
+  {
+    "id": "15",
+    "nombre": "Comedia negra"
+  }
+]

@@ -1,0 +1,7 @@
+.container {
+    background:  linear-gradient(130deg,#000000 0%, #00000000 70% ),url('../public/antique-book-store-shelves.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

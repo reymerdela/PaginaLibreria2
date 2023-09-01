@@ -1,12 +1,16 @@
 
 .bookContainer {
-    margin-top: 2rem;
-   display: grid;
-   /* grid-template-columns: repeat(5, 1fr); */
-   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-   gap: 1rem;
-   justify-content: center;
-   align-items: center;
+    margin: 2rem 0;
+}
+.bookContainer > div {
+    padding: 0 0 0.5rem 0;
+}
+
+
+@media (min-width: 1200px) {
+    .bookContainer ul {
+        justify-content: center;
+    }
 }
 
 

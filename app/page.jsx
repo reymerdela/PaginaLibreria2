@@ -10,12 +10,12 @@ import Autores from '@/components/secciones/Autores';
 // import Features from '@/components/secciones/Features';
 // import Blog from '@/components/secciones/Blog';
 import Suscribe from '@/components/secciones/Suscribe';
-// import Testimonials from '@/components/secciones/Testimonials';
+import Testimonials from '@/components/secciones/Testimonials';
 export default function Home() {
   return (
     <>
       <Hero />
-      <div className="container-xl p-4">
+      <div className="py-4">
       <Suspense fallback={<Loading/>} >
         <BookSeccion />
       </Suspense>
@@ -23,13 +23,13 @@ export default function Home() {
       <GenreSeccion />
       <NuevosLibros />
       <Autores />
+      <Testimonials />
 
       <Suscribe /> 
       </div>
       {/* 
             
             
-            <Testimonials />
             <Blog />
            */}
     </>

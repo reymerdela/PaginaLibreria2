@@ -2,28 +2,41 @@ import BookCard from "../BookCard";
 import style from "./NuevosLibros.module.css";
 import Button from "../Button";
 import { getLibros } from "@/services/datosService";
-// const books = JSON.parse(JSON.stringify(libros));
+import { Splide, SplideSlide } from "@/util/slider";
 
 const NuevosLibros = async () => {
-  const books = await getLibros();
+  const {datos} = await getLibros();
+
+  const libros = datos.sort((a, b) => {
+    return new Date(b.fecha) - new Date(a.fecha);
+  });
+
   return (
-    <section className={style.container}>
-      <div className={style.content}>
-        <h3>Nuevos Libros</h3>
-        <p>
+    <section className="container-xl mx-auto text-center mx-1 row" style={{background: "var(--main-color-light)"}}>
+      <div className="col-12 col-md-6 d-flex flex-column p-4">
+        <h3 className="fw-bold">Nuevos Libros</h3>
+        <p className="my-auto">
           Así que, ¿qué estás esperando? Explora nuestra colección de nuevos
           libros y descubre tu próxima lectura favorita. La aventura literaria
           te espera, ¡comienza hoy mismo!
         </p>
-        <div className={style.button}>
-        <Button value="Ver mas" href="/libros" />
-        </div>
       </div>
-      <div className={style.bookContainer}>
-        <BookCard book={books[0]} />
-        <BookCard book={books[1]} />
-         
+
+
+      <div className={`${style.bookContainer} col-12 col-md-6`}>    
+      <Splide options={{
+        perPage: 1,
+        autoWidth: true,
+      }}>
+      {libros.slice(0,2).map((libro) => (
+        <SplideSlide key={libro.id}>
+
+          <BookCard  book={libro} />
+        </SplideSlide>
+        ))}
+      </Splide>      
       </div>
+      
     </section>
   );
 };

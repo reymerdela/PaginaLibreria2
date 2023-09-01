@@ -38,6 +38,7 @@ export default function NavigationBar() {
     <>
       <Navbar expand="lg" className="container-xl gap-4 p-4 flex-nowrap">
     
+        <Navbar.Toggle />
         <div className="">
         <Link href={"/"} >
           <Image src={logo} alt="logo" 
@@ -54,7 +55,6 @@ export default function NavigationBar() {
         <div className="ms-auto  order-lg-last ">
           <NavButtons />
         </div>
-        <Navbar.Toggle />
         <Navbar.Offcanvas placement="start" className="me-auto w-75">
           <Offcanvas.Header closeButton >
             <Offcanvas.Title></Offcanvas.Title>

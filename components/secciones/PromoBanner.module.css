@@ -1,15 +1,14 @@
 .banner {
     border-radius: 20px;
-    background-image: linear-gradient(112deg, rgba(255, 255, 255, 0) 0%, var(--main-color) 60%), url("https://picsum.photos/seed/picsum/900/250");
+    background: linear-gradient(112deg, rgba(255, 255, 255, 0) 0%, var(--main-color) 85%), url("../../public/pngtree-many-green-books-stacked-on-a-green-surface-picture-image_2679448.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     color: #fff;
-    padding: 4rem;
-
 }
 .content p {
     margin: 8px 0;

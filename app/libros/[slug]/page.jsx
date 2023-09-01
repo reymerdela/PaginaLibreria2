@@ -1,6 +1,6 @@
 
 import HeroSeccion from "@/components/HeroSeccion";
-import { getLibros } from "@/services/datosService";
+import { getLibros, getLibrosBySlug } from "@/services/datosService";
 import styles from "./pageDetails.module.css";
 import Image from "next/image";
 import {default as cart } from "../../../public/images/bag.svg";
@@ -9,10 +9,8 @@ import { cartContext } from "@/context/CartContext";
 import { ProductDetail } from "@/components/secciones/ProductDetail";
 
 const DetalleLibro = async ({ params }) => {
-  console.log(params.id);
-  const libros = await getLibros();
-  const libro = libros.find((libro) => libro.id == params.id);
-  console.log(libro);
+  const libro = await getLibrosBySlug(params.slug);
+  
 
 
 

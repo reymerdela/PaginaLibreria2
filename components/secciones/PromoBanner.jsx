@@ -4,8 +4,8 @@ const PromoBanner = () => {
 
 
   return (
-    <section className="">
-    <div className={style.banner}>
+    <section className="mb-5 container-xl px-3 p-sm-4">
+    <div className={`${style.banner} p-4 p-lg-5`}>
       <div className={style.content}>
         <div>
           <p>Oferta especial</p>

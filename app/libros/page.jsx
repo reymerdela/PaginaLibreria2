@@ -3,15 +3,16 @@ import LibrosSeccion from "@/components/secciones/LibrosSeccion";
 import HeroSeccion from "@/components/HeroSeccion";
 import { Suspense } from "react";
 import Loading from "../loading";
+import { getLibrosByGenero } from "@/services/datosService";
+export default async function LibrosPage({searchParams}) {
 
-export default async function LibrosPage() {
 
   
   return (
      <section>
             <HeroSeccion titulo={"Libros"} ruta={"Libros"} />
             <Suspense fallback={<Loading/>}>
-            <LibrosSeccion />
+            <LibrosSeccion params={searchParams}/>
             </Suspense>
          
       </section>
