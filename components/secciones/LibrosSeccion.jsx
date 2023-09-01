@@ -23,8 +23,8 @@ const LibrosSeccion = async ({params}) => {
  
 
   return (
-    <div className={styles.container}>
-      <aside className={styles.filters}>
+    <div className="container-xl row mx-auto my-4">
+      <aside className={`d-none d-lg-block col-4`}>
         <div className={styles.filterCard}>
           <h3 className={styles.subtitle}>Categoria</h3>
           <div className={styles.filtersContent}>
@@ -39,13 +39,15 @@ const LibrosSeccion = async ({params}) => {
         </div>
       </aside>
 
-      <section className={styles.main}>
-        <div className={styles.orderContainer}>
+      <section className={`${styles.main} col-12 col-lg-8`}>
+        <div className="d-flex justify-content-end p-2">
           <OrderBar />
         </div>
-        <div className={styles.booksContainer}>
+        <div className="row row-cols-2 row-cols-md-3">
           {libros.map((libro) => (
-            <BookCard key={libro.id} book={libro} />
+            <div key={libro.id} className="col">
+              <BookCard book={libro} />
+            </div>
           ))}
         </div>
         <Paginacion paginacion={pagination}/>

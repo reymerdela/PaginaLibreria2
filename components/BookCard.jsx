@@ -17,8 +17,10 @@ const BookCard = ({ book }) => {
   return (
     <article className="p-2 d-flex flex-column justify-content-between align-items-center ">
      <div>
+     
+
       <Link href={`/libros/${book.slug}`}>
- 
+      <div>
       <Image 
       src={book.imagen}
       alt="book"
@@ -26,12 +28,12 @@ const BookCard = ({ book }) => {
       height={300}
       className="img-card"
       style={{  
-        height: "300px",
-        width: "200px",
+   
         borderRadius: "20px",
-        objectFit: "fill",
+        objectFit: "cover",
       }} onMouseOver={() => setOverButton(true)} onMouseOut={() => setOverButton(false)}
       />
+     </div>
       </Link>
       
       <p className="my-2 fw-medium text-truncate" style={{fontSize: '14px', color: 'var(--main-color)',maxWidth: "200px"}}>{autor}</p>

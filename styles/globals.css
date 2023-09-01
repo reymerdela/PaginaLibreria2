@@ -13,7 +13,7 @@ body {
 :root {
     --main-color: #087c6b;
     --main-color-light: #e4fffb;
-    /* --main-color-light: #d9fff5; */
+    --gris: #e4e9e8;
     --secondary-color: #ff6320;
     --secondary-color-light: #ffece3;
     --dark-color: #101313;

@@ -3,7 +3,7 @@ import styles from "./HeroSeccion.module.css";
 
 const HeroSeccion = ({ titulo, ruta, subRuta = null }) => {
   return (
-    <div className={styles.wraper}>
+    <div style={{background: "var(--gris)"}}>
       <div className={styles.content}>
         <h2 className="fw-bolder">{titulo}</h2>
         <div>
